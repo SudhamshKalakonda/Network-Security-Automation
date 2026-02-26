@@ -27,21 +27,8 @@ Machine Learning: Scikit-learn, Pandas, NumPy
 
 Logging: Custom Exception & Logging modules
 
-Project Structure
-Plaintext
 
-network-security-automation/
-├── networksecurity/           # Core Package
-│   ├── components/            # Ingestion, Validation, & Transformation logic
-│   ├── entity/                # Config & Artifact definitions
-│   ├── pipeline/              # Training & Batch Prediction workflows
-│   └── utils/                 # Utility functions for S3 and ML metrics
-├── templates/                 # UI components for FastAPI frontend
-├── Dockerfile                 # Containerization for cloud deployment
-├── app.py                     # FastAPI entry point
-├── push_data.py               # Data migration script (CSV to MongoDB)
-└── setup.py                   # Package distribution configuration
- Getting Started
+
 1. Clone the Repository
 Bash
 
@@ -76,3 +63,4 @@ docker build -t network-security-app .
 
 # Run the container
 docker run -p 8080:8080 network-security-app
+
