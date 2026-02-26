@@ -58,9 +58,10 @@ This project is configured for CI/CD deployment using Docker:
 
 Bash
 
-# Build the image
+Build the image
 docker build -t network-security-app .
 
-# Run the container
+Run the container
 docker run -p 8080:8080 network-security-app
+
 
